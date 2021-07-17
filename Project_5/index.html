@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    
+</head>
+<body style=>
+    <nav>
+        <ul>
+            <li id="desserts">The Desserts<i class="fas fa-utensils"></i></li>
+            <li class="dropdown"><a>Trending</a>
+            <div class="list">
+                <a>Entertainment</a>
+                <a>Travel</a>
+                <a>Education</a>
+            </div>
+            </li>
+            <li class="dropdown"><a>Tech</a>
+            <div class="list">
+                <a>Latest</a>
+                <a>Programmin</a>
+                <a>App Reviews</a>
+            </div>
+        </li>
+        <li class="dropdown"><a>Politics</a>
+        <div class="list">
+            <a>Headlines</a>
+            <a>The Facts</a>
+            <a>The Gossip</a>
+        </div>
+    </li>
+        <li class="dropdown"><a>FAQ</a>
+        <div class="list">
+            <a>Our Policy</a>
+            <a>Careers</a>
+        </div>
+    </li>
+        <li class="dropdown"><a>Content</a>
+        <div class="list">
+            <a>Email</a>
+            <a href="#">Phone</a>
+        </div>
+    </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Image Gallery of your favorite treats</h1>
+        <img src="1.jpg" id="displayImage">
+        <div>
+            <button type="button" onclick="goBack()">Previous</button>
+            <button  type="button" onclick="goForward()">Next</button>
+            </div>
+            </main>
+    <footer>
+        <p>The Desserts</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
